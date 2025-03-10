@@ -36,7 +36,7 @@ def test_python_day00_ex01():
 from ex02.find_ft_type import all_thing_is_obj
 from ex03.NULL_not_found import NULL_not_found
 from ex04.whatis import main as whatis
-
+from utils import run_flake8
 
 def test_python_day00_ex02(capsys):
     ft_list = ["Hello", "tata!"]
@@ -129,4 +129,9 @@ def test_python_day00_ex04(capsys):
                           )
     result = test.stdout
     assert "ValueError" in result
+
+
+def test_python_day00_ex05():
+    result = run_flake8("../srcs/day00/ex05/building.py")
+    assert "" == result
 
