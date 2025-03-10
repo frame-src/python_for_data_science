@@ -55,10 +55,10 @@ def main():
         analyzer.report()
 
     except AssertionError as e:
-        print(f"AssertionError: {e} wrong number of arguments.")
+        print(AssertionError.__name__ + ": wrong number of arguments.")
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"Error: {str(e)}")
 
 
 if __name__ == "__main__":
