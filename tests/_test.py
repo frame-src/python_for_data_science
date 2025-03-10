@@ -38,6 +38,7 @@ from ex03.NULL_not_found import NULL_not_found
 from ex04.whatis import main as whatis
 from utils import run_flake8
 
+
 def test_python_day00_ex02(capsys):
     ft_list = ["Hello", "tata!"]
     ft_tuple = ("Hello", "toto!")

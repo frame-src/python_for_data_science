@@ -21,6 +21,7 @@ def main(input = None):
     print(f"Second since January 1, 1970: {epoch_time:,.4f} or {scientific_notation} in scientific notation")
     print(f"{human_readable_time}")
 
+
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         input_value : float = 0

@@ -1,5 +1,5 @@
+#!/usr/bin/env python3
 
-# DATA OBJs
 ft_list = ["Hello", "tata!"]
 ft_tuple = ("Hello", "toto!")
 ft_set = {"Hello", "tutu!"}
