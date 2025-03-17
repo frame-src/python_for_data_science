@@ -1,0 +1,21 @@
+Metadata-Version: 2.2
+Name: ft_package
+Version: 0.0.1
+Summary: My first Python package
+Author: frame-src
+Author-email: frame-src@MAIL.com
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: keywords
+Dynamic: requires-python
+Dynamic: summary
+
+My first Python package with a slightly longer description
