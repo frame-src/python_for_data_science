@@ -22,6 +22,5 @@ def main():
         print(f"Unexpected error: {e}")
 
 
-
 if __name__ == "__main__":
     main()
