@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
-
-from srcs.day02.
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "srcs/day02"))
+from ex00.load_csv import load
 
 def draw_my_country(country:str = "Germany"):
     data = load("life_expectancy_years.csv")
@@ -10,4 +12,10 @@ def draw_my_country(country:str = "Germany"):
             t = range(100)
             x = float(row[1:])
             lines = ax.plot(t,x)
+            ax.xlabel("Year")
+            ax.ylabel("Life Expectancy")
+            ax.title("Germany Life Expectancy Projections")
+            ax.legend()
+            ax.grid()
 
+draw_my_country()
